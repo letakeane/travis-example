@@ -5,3 +5,5 @@ services:
   - postgresql
 before_script:
   - psql -c 'CREATE DATABASE hauntingstest;' -U postgres
+notifications:
+  email: false
